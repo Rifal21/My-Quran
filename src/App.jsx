@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import AllSurahs from './components/AllSurahs';
 import SurahDetail from './components/DetailSurah';
 import AllDoa from './components/AllDoa';
+import AllHadits from './components/AllHadits';
 
 // Membuat browser router dengan routes
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/doa",
     element: <AllDoa />,
+  },
+  {
+    path: "/hadits",
+    element: <AllHadits />,
   },
 ]);
 
