@@ -35,6 +35,12 @@ const HomePage = () => {
           >
             Pergi ke Surah Tertentu
           </button>
+          <button
+            className="w-full border-2 border-white text-white px-6 py-3 rounded-md hover:bg-white hover:text-black transition"
+            onClick={() => navigate('/doa')}
+          >
+            Kumpulan Do'a Harian
+          </button>
         </div>
       </div>
 

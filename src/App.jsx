@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AllSurahs from './components/AllSurahs';
 import SurahDetail from './components/DetailSurah';
+import AllDoa from './components/AllDoa';
 
 // Membuat browser router dengan routes
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/surahs-detail/:surahNumber",
     element: <SurahDetail />,
+  },
+  {
+    path: "/doa",
+    element: <AllDoa />,
   },
 ]);
 
