@@ -55,7 +55,7 @@ const AllSurahs = () => {
       style={{ backgroundImage: "url('/img/masjid.jpg')" }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
-      <div className="relative z-10 p-8 w-full max-w-4xl mx-auto text-white border-2 border-white rounded-lg bg-black bg-opacity-30 h-[80vh] flex flex-col">
+      <div className="relative z-10 p-8 w-full max-w-4xl mx-auto text-white border-2 border-white rounded-lg bg-black bg-opacity-30 h-[95vh] flex flex-col">
         <button
           onClick={goHome}
           className="absolute md:top-10 md:left-7 top-5 left-5 text-2xl text-white hover:text-gray-300 transition"
