@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Tambahkan ke file CSS global Anda, misalnya 'app.css' */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Edge */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* Internet Explorer dan Edge */
+  scrollbar-width: none;  /* Firefox */
+}
