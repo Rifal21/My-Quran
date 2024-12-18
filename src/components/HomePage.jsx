@@ -82,12 +82,12 @@ const HomePage = () => {
           <p className="text-white">
             Copyright © {new Date().getFullYear()} My Islamic App
           </p>
-          <a
+          {/* <a
             href="juknis UNO IV.pdf"
             download={"juknis UNO IV.pdf"}
             className="text-white transform transition-transform duration-300 hover:scale-110 hover:underline">
             file
-          </a>
+          </a> */}
         </div>
       </div>
 
