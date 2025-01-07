@@ -83,8 +83,8 @@ const HomePage = () => {
             Copyright © {new Date().getFullYear()} My Islamic App
           </p>
           <a
-            href="Kemenpora_Logo.png"
-            download={"Kemenpora_Logo.png"}
+            href="hydro-coco.png"
+            download={"hydro-coco.png"}
             className="text-white transform transition-transform duration-300 hover:scale-110 hover:underline">
             file
           </a>
